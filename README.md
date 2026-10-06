@@ -19,5 +19,3 @@ The manuscript's final practitioner recommendation and its 24-target matched-bud
 
 ## 06_Robustness_and_Sensitivity_Analyses
 Historical leave-one-instance-out robustness, interpolation and threshold sensitivity, GREEN random baselines, intervention-only continuous-loss/recovery analyses for the original prospective implementation, computational-work proxies, and inference diagnostics reported in the manuscript.
-
-See `SHA256_MANIFEST.txt` for file-level hashes and `PACKAGE_INVENTORY.csv` for the package inventory.
