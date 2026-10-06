@@ -1,0 +1,15 @@
+{
+  "definition_IGU": "sum over tuning runs of population_size (Ps=n*pop_mult) times generations G; exact for RED, bounded for AMBER because only the selected promoted configuration is archived, not all five promoted configurations",
+  "definition_problem_size_weighted_proxy": "IGU multiplied by n*m for each target as a rough objective-evaluation arithmetic proxy; not CPU/wall time",
+  "policy_individual_generation_units_lower": 17569470000.0,
+  "policy_individual_generation_units_upper": 17908270000.0,
+  "full24_individual_generation_units": 53775000000.0,
+  "policy_individual_generation_units_reduction_vs_full_lower_fraction": 0.6669777777777778,
+  "policy_individual_generation_units_reduction_vs_full_upper_fraction": 0.6732781032078103,
+  "policy_problem_size_weighted_proxy_lower": 26063838000000.0,
+  "policy_problem_size_weighted_proxy_upper": 26374470000000.0,
+  "full24_problem_size_weighted_proxy": 53900625000000.0,
+  "policy_problem_size_weighted_proxy_reduction_vs_full_lower_fraction": 0.5106834104428288,
+  "policy_problem_size_weighted_proxy_reduction_vs_full_upper_fraction": 0.5164464605002261,
+  "warning": "Proxy only. It accounts for n, m, G and population multiplier but not implementation/vectorization/hardware effects; do not present as measured elapsed-time reduction."
+}

@@ -1,0 +1,5 @@
+scope,n_targets,guided_better_raw,blind_better_raw,exact_tie_raw,guided_practical,blind_practical,practical_tie,mean_guided_adv_pct,median_guided_adv_pct,guided_budget,blind_budget
+ALL,24,16,5,3,9,1,14,0.05026551734990129,0.0372472105555419,3767,3768
+GREEN,8,4,1,3,3,1,4,0.05184945219135048,0.021246029016009,370,1256
+AMBER,12,9,3,0,4,0,8,0.05167922875654049,0.0322055178497867,1437,1884
+RED,4,3,1,0,2,0,2,0.042856513447085354,0.05302219888217374,1960,628

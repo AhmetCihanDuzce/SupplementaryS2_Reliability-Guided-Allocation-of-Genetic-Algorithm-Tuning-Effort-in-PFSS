@@ -1,0 +1,109 @@
+{
+  "historical_loo": {
+    "anchors": 9,
+    "single_anchor_deletion_scenarios": 90,
+    "ta100x20_loo_min": 0.6666666666666666,
+    "ta100x20_loo_max": 0.7916666666666666,
+    "action_flip_events": 19,
+    "stable_targets": 16,
+    "unstable_targets": 8
+  },
+  "reliability_to_direct_center_loss": {
+    "nominal_spearman_rho_clipped_loss": -0.5208491520704139,
+    "nominal_p_two_sided": 0.009064237580391411,
+    "loo90_rho_min": -0.5696352011046633,
+    "loo90_rho_median": -0.5208491520704139,
+    "loo90_rho_max": -0.4776386514972217,
+    "loo90_auc_min": 0.7777777777777778,
+    "loo90_auc_median": 0.8412698412698413,
+    "loo90_auc_max": 0.873015873015873
+  },
+  "interpolation_sensitivity": {
+    "raw_bilinear_mean_abs_difference_pp": 0.8521570885168652,
+    "raw_bilinear_max_abs_difference_pp": 1.9712392123682698,
+    "raw_bilinear_action_agreement": "23/24",
+    "raw_bilinear_rho": -0.5115565713019855,
+    "log_idw_mean_abs_difference_pp": 0.8392581772826541,
+    "log_idw_max_abs_difference_pp": 2.8221804788997495,
+    "log_idw_action_agreement": "23/24",
+    "log_idw_rho": -0.526
+  },
+  "green_random_baseline": {
+    "expected_safe_targets": 6.032,
+    "transferred_center_safe_targets": 8,
+    "all_eight_random_safe_probability_pct": 0.608256
+  },
+  "intervention_targets": {
+    "N": 16,
+    "policy_mean_clipped_loss_pp": 0.07864705637779976,
+    "center_mean_clipped_loss_pp": 0.14825621458887225,
+    "descriptive_clipped_loss_reduction_fraction": 0.4695193277671693,
+    "clipped_pair_counts": {
+      "improved": 7,
+      "worsened": 3,
+      "unchanged": 6
+    },
+    "tolerance_0p10": {
+      "policy_safe": 13,
+      "center_safe": 7,
+      "recoveries": 6,
+      "reverse_discordance": 0
+    }
+  },
+  "computational_work": {
+    "original_conservative_prospective": {
+      "tuning_runs": 6185,
+      "universal_full_retuning_runs": 30000,
+      "run_count_reduction_fraction": 0.7938333333333334,
+      "individual_generation_units_reduction_fraction_range": [
+        0.6669777777777778,
+        0.6732781032078103
+      ],
+      "problem_size_weighted_proxy_reduction_fraction_range": [
+        0.5106834104428288,
+        0.5164464605002261
+      ],
+      "role": "original conservative prospective validation implementation"
+    },
+    "recommended_staged_operational_policy": {
+      "tuning_runs": 3767,
+      "universal_full_retuning_runs": 30000,
+      "reduction_vs_universal_fraction": 0.8744333333333334,
+      "original_conservative_prospective_runs": 6185,
+      "reduction_vs_original_conservative_fraction": 0.3909458367016977,
+      "reliability_blind_matched_budget_runs": 3768,
+      "risk_group_runs": {
+        "GREEN": 370,
+        "AMBER": 1437,
+        "RED": 1960
+      },
+      "role": "final recommended staged operational policy; run-count comparison only"
+    }
+  },
+  "inference": {
+    "wilcoxon_raw_one_sided_p": 0.05706416388111932,
+    "wilcoxon_holm_p": 0.11412832776223863,
+    "discordant_pair_raw_one_sided_p": 0.75,
+    "discordant_pair_holm_p": 0.75,
+    "interpretation": "Prespecified confirmatory tests do not establish superiority over direct center reuse; non-significance does not establish equivalence."
+  },
+  "recommended_operational_policy_validation": {
+    "guided_budget": 3767,
+    "blind_budget": 3768,
+    "validation_rows": 960,
+    "raw_mean_cmax": {
+      "guided_better": 16,
+      "blind_better": 5,
+      "exact_tie": 3
+    },
+    "practical_band_pct": 0.05,
+    "practical_classes": {
+      "guided": 9,
+      "blind": 1,
+      "tie": 14
+    },
+    "mean_guided_advantage_pct": 0.05026551734990129,
+    "median_guided_advantage_pct": 0.0372472105555419,
+    "evidence_status": "descriptive subsequent validation, not a prespecified confirmatory endpoint"
+  }
+}

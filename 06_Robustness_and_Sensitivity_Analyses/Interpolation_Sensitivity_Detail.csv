@@ -1,0 +1,73 @@
+target_id,target,method,reliability,action,baseline_action,action_changed,center_clipped_loss_pp
+T01_30x5,30x5,Prespecified log-coordinate bilinear,0.9311762246443238,GREEN,GREEN,False,0.1508379888268181
+T02_30x10,30x10,Prespecified log-coordinate bilinear,0.859930548961165,AMBER,AMBER,False,0.1224682053697662
+T03_30x15,30x15,Prespecified log-coordinate bilinear,0.8253272904164374,AMBER,AMBER,False,0.0
+T04_30x20,30x20,Prespecified log-coordinate bilinear,0.8007758877613995,AMBER,AMBER,False,0.0
+T05_40x5,40x5,Prespecified log-coordinate bilinear,0.9592087021457765,GREEN,GREEN,False,0.0
+T06_40x10,40x10,Prespecified log-coordinate bilinear,0.8154523513255267,AMBER,AMBER,False,0.1136363636363636
+T07_40x15,40x15,Prespecified log-coordinate bilinear,0.7834727644833047,AMBER,AMBER,False,0.1077441077441016
+T08_40x20,40x20,Prespecified log-coordinate bilinear,0.7607828865259938,AMBER,AMBER,False,0.0
+T09_60x5,60x5,Prespecified log-coordinate bilinear,0.9850231515188562,GREEN,GREEN,False,0.0
+T10_60x10,60x10,Prespecified log-coordinate bilinear,0.8304279001449277,AMBER,AMBER,False,0.0
+T11_60x15,60x15,Prespecified log-coordinate bilinear,0.7682449549521136,AMBER,AMBER,False,0.3272186415468472
+T12_60x20,60x20,Prespecified log-coordinate bilinear,0.7241254532083234,RED,RED,False,0.2258635961027417
+T13_70x5,70x5,Prespecified log-coordinate bilinear,0.9884649389919204,GREEN,GREEN,False,0.0
+T14_70x10,70x10,Prespecified log-coordinate bilinear,0.8722588555867836,AMBER,AMBER,False,0.0
+T15_70x15,70x15,Prespecified log-coordinate bilinear,0.7828187009427234,AMBER,AMBER,False,0.3163596966413947
+T16_70x20,70x20,Prespecified log-coordinate bilinear,0.7193599013225425,RED,RED,False,0.7408890668802564
+T17_80x5,80x5,Prespecified log-coordinate bilinear,0.9914463509124576,GREEN,GREEN,False,0.0
+T18_80x10,80x10,Prespecified log-coordinate bilinear,0.9084944773902341,GREEN,GREEN,False,0.2283601565898216
+T19_80x15,80x15,Prespecified log-coordinate bilinear,0.7954430539463099,AMBER,AMBER,False,0.1059883412824589
+T20_80x20,80x20,Prespecified log-coordinate bilinear,0.7152317925094911,RED,RED,False,0.0
+T21_90x5,90x5,Prespecified log-coordinate bilinear,0.9940761426014457,GREEN,GREEN,False,0.0
+T22_90x10,90x10,Prespecified log-coordinate bilinear,0.9404565609948595,GREEN,GREEN,False,0.0
+T23_90x15,90x15,Prespecified log-coordinate bilinear,0.8065785224734847,AMBER,AMBER,False,0.0723016009640182
+T24_90x20,90x20,Prespecified log-coordinate bilinear,0.7115905424785844,RED,RED,False,0.2396298132540076
+T01_30x5,30x5,Raw-coordinate bilinear,0.9214285714285715,GREEN,GREEN,False,0.1508379888268181
+T02_30x10,30x10,Raw-coordinate bilinear,0.8753968253968255,AMBER,AMBER,False,0.1224682053697662
+T03_30x15,30x15,Raw-coordinate bilinear,0.8450396825396826,AMBER,AMBER,False,0.0
+T04_30x20,30x20,Raw-coordinate bilinear,0.8146825396825397,AMBER,AMBER,False,0.0
+T05_40x5,40x5,Raw-coordinate bilinear,0.9511904761904761,GREEN,GREEN,False,0.0
+T06_40x10,40x10,Raw-coordinate bilinear,0.8281746031746031,AMBER,AMBER,False,0.1136363636363636
+T07_40x15,40x15,Raw-coordinate bilinear,0.8001984126984127,AMBER,AMBER,False,0.1077441077441016
+T08_40x20,40x20,Raw-coordinate bilinear,0.7722222222222221,AMBER,AMBER,False,0.0
+T09_60x5,60x5,Raw-coordinate bilinear,0.9840476190476191,GREEN,GREEN,False,0.0
+T10_60x10,60x10,Raw-coordinate bilinear,0.8185714285714287,AMBER,AMBER,False,0.0
+T11_60x15,60x15,Raw-coordinate bilinear,0.7720238095238096,AMBER,AMBER,False,0.3272186415468472
+T12_60x20,60x20,Raw-coordinate bilinear,0.7254761904761905,RED,RED,False,0.2258635961027417
+T13_70x5,70x5,Raw-coordinate bilinear,0.9871428571428571,GREEN,GREEN,False,0.0
+T14_70x10,70x10,Raw-coordinate bilinear,0.8561904761904762,AMBER,AMBER,False,0.0
+T15_70x15,70x15,Raw-coordinate bilinear,0.7886904761904762,AMBER,AMBER,False,0.3163596966413947
+T16_70x20,70x20,Raw-coordinate bilinear,0.7211904761904762,RED,RED,False,0.7408890668802564
+T17_80x5,80x5,Raw-coordinate bilinear,0.9902380952380953,GREEN,GREEN,False,0.0
+T18_80x10,80x10,Raw-coordinate bilinear,0.8938095238095238,AMBER,GREEN,True,0.2283601565898216
+T19_80x15,80x15,Raw-coordinate bilinear,0.8053571428571429,AMBER,AMBER,False,0.1059883412824589
+T20_80x20,80x20,Raw-coordinate bilinear,0.7169047619047619,RED,RED,False,0.0
+T21_90x5,90x5,Raw-coordinate bilinear,0.9933333333333333,GREEN,GREEN,False,0.0
+T22_90x10,90x10,Raw-coordinate bilinear,0.9314285714285715,GREEN,GREEN,False,0.0
+T23_90x15,90x15,Raw-coordinate bilinear,0.8220238095238095,AMBER,AMBER,False,0.0723016009640182
+T24_90x20,90x20,Raw-coordinate bilinear,0.7126190476190477,RED,RED,False,0.2396298132540076
+T01_30x5,30x5,Local log-space inverse-distance weighting (p=2),0.9261768966186579,GREEN,GREEN,False,0.1508379888268181
+T02_30x10,30x10,Local log-space inverse-distance weighting (p=2),0.8678628160952215,AMBER,AMBER,False,0.1224682053697662
+T03_30x15,30x15,Local log-space inverse-distance weighting (p=2),0.8287486692066593,AMBER,AMBER,False,0.0
+T04_30x20,30x20,Local log-space inverse-distance weighting (p=2),0.8079082624113495,AMBER,AMBER,False,0.0
+T05_40x5,40x5,Local log-space inverse-distance weighting (p=2),0.9725679573937249,GREEN,GREEN,False,0.0
+T06_40x10,40x10,Local log-space inverse-distance weighting (p=2),0.7942556663321151,AMBER,AMBER,False,0.1136363636363636
+T07_40x15,40x15,Local log-space inverse-distance weighting (p=2),0.7789432355818432,AMBER,AMBER,False,0.1077441077441016
+T08_40x20,40x20,Local log-space inverse-distance weighting (p=2),0.7417236823722538,RED,AMBER,True,0.0
+T09_60x5,60x5,Local log-space inverse-distance weighting (p=2),0.9827011042893876,GREEN,GREEN,False,0.0
+T10_60x10,60x10,Local log-space inverse-distance weighting (p=2),0.8022060953560025,AMBER,AMBER,False,0.0
+T11_60x15,60x15,Local log-space inverse-distance weighting (p=2),0.7698464055216462,AMBER,AMBER,False,0.3272186415468472
+T12_60x20,60x20,Local log-space inverse-distance weighting (p=2),0.7273405955260491,RED,RED,False,0.2258635961027417
+T13_70x5,70x5,Local log-space inverse-distance weighting (p=2),0.9882397846600857,GREEN,GREEN,False,0.0
+T14_70x10,70x10,Local log-space inverse-distance weighting (p=2),0.8695223644767917,AMBER,AMBER,False,0.0
+T15_70x15,70x15,Local log-space inverse-distance weighting (p=2),0.7831985695439503,AMBER,AMBER,False,0.3163596966413947
+T16_70x20,70x20,Local log-space inverse-distance weighting (p=2),0.7196716534743137,RED,RED,False,0.7408890668802564
+T17_80x5,80x5,Local log-space inverse-distance weighting (p=2),0.9935818158693754,GREEN,GREEN,False,0.0
+T18_80x10,80x10,Local log-space inverse-distance weighting (p=2),0.9344485899435445,GREEN,GREEN,False,0.2283601565898216
+T19_80x15,80x15,Local log-space inverse-distance weighting (p=2),0.7898870845328195,AMBER,AMBER,False,0.1059883412824589
+T20_80x20,80x20,Local log-space inverse-distance weighting (p=2),0.7122749948768355,RED,RED,False,0.0
+T21_90x5,90x5,Local log-space inverse-distance weighting (p=2),0.9959467947118155,GREEN,GREEN,False,0.0
+T22_90x10,90x10,Local log-space inverse-distance weighting (p=2),0.96319217895166,GREEN,GREEN,False,0.0
+T23_90x15,90x15,Local log-space inverse-distance weighting (p=2),0.7895990412383774,AMBER,AMBER,False,0.0723016009640182
+T24_90x20,90x20,Local log-space inverse-distance weighting (p=2),0.7090004087873035,RED,RED,False,0.2396298132540076

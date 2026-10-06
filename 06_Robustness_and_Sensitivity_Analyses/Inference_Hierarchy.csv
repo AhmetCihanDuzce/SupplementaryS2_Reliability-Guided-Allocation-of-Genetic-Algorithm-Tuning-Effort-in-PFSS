@@ -1,0 +1,10 @@
+layer,analysis,status,result,interpretation
+Confirmatory,Paired Wilcoxon signed-rank on 24 target-level clipped losses,Prespecified co-primary,raw p=0.057064; Holm p=0.114128,Does not establish lower clipped loss for policy at alpha=0.05.
+Confirmatory,Exact discordant-pair McNemar/binomial SAFE/FAIL comparison at 0.25 pp,Prespecified co-primary,"favorable=1, reverse=1; raw p=0.750000; Holm p=0.750000",Does not establish fewer above-tolerance outcomes for policy at alpha=0.05.
+Descriptive,Overall prospective within-tolerance count,Prespecified summary,policy=21/24; center=21/24,Panel-level performance summary; not evidence of superiority or equivalence.
+Descriptive,GREEN subgroup policy within-tolerance,Prespecified subgroup summary,8/8; Wilson 95% CI 67.6-100.0%,Reported descriptively; subgroup N is small and no subgroup superiority test is claimed.
+Descriptive,AMBER subgroup policy within-tolerance,Prespecified subgroup summary,10/12; Wilson 95% CI 55.2-95.3%,Reported descriptively; subgroup N is small and no subgroup superiority test is claimed.
+Descriptive,RED subgroup policy within-tolerance,Prespecified subgroup summary,3/4; Wilson 95% CI 30.1-95.4%,Reported descriptively; subgroup N is small and no subgroup superiority test is claimed.
+Exploratory additional,16 AMBER+RED continuous-loss comparison,Additional analysis,mean clipped loss 0.0786 vs 0.1483 pp; one-sided Wilcoxon p=0.0571,Useful magnitude/decision-value evidence; not confirmatory.
+Exploratory additional,Tolerance sensitivity on 16 AMBER+RED targets,Additional analysis,0.10 pp: 13/16 vs 7/16; 0.25 pp: 13/16 vs 13/16; 0.50 pp: 15/16 vs 15/16,Shows endpoint sensitivity; does not replace the prespecified 0.25-pp endpoint.
+Descriptive operational validation,Recommended staged policy vs reliability-blind matched-budget tuner,Subsequent validation on exact recovered 24-target panel,guided budget=3767; blind budget=3768; raw means: 16 guided / 5 blind / 3 ties; +/-0.05% classes: 9 guided / 1 blind / 14 ties,Supports the lower-cost staged operational recommendation within the tested panel; not a prespecified confirmatory endpoint.

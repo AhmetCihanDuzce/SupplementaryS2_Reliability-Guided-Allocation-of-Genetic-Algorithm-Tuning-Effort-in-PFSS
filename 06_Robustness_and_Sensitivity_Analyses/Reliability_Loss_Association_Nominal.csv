@@ -1,0 +1,7 @@
+endpoint,statistic,value,p_two_sided,note
+Direct center signed excess,Spearman rho,-0.3352902884219442,0.1092324288666522,Primary pre-intervention target-level association.
+Direct center clipped loss,Spearman rho,-0.5208491520704139,0.009064237580391411,Primary pre-intervention target-level association.
+Direct center SAFE vs above tolerance,ROC-equivalent AUC from Mann-Whitney U,0.8412698412698413,0.06620553359683795,21 within tolerance vs 3 above tolerance; higher reliability expected for within-tolerance targets.
+Policy signed excess,Spearman rho,0.0017406446975290228,0.9935594392964017,Secondary post-intervention association; action/tuning is determined by reliability.
+Policy clipped loss,Spearman rho,-0.2933718355065981,0.16412335349309384,Secondary post-intervention association; action/tuning is determined by reliability.
+Policy SAFE vs above tolerance,ROC-equivalent AUC from Mann-Whitney U,0.873015873015873,0.040513833992094864,Secondary post-intervention diagnostic.

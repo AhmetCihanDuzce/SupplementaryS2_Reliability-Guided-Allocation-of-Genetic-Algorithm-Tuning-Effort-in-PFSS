@@ -1,0 +1,28 @@
+IMPORTANT SCOPE NOTE
+The `policy_*` and `policy_tuning_runs` fields below describe the ORIGINAL CONSERVATIVE PROSPECTIVE VALIDATION implementation fixed before the 24 target outcomes were observed. They do not describe the final recommended staged operational policy. The latter is reported separately in `05_Recommended_Operational_Policy_Validation/`.
+
+Prospective_24_Target_Summary.csv — selected field definitions
+
+target_index: prospective target index, 1–24.
+target_id: stable target identifier, e.g. T01_30x5.
+n, m: number of jobs and machines.
+action: GREEN, AMBER, or RED action assigned before outcome observation.
+NEH: deterministic NEH makespan used for normalization.
+G: transferred/rounded generation budget.
+historical_safe_rate_interpolated: log-bilinearly interpolated historical transfer reliability.
+predicted_surface_sd_pp: prespecified structural diagnostic prediction; not used to assign action.
+center_pop_mult, center_pc, center_pm: snapped interpolated transferred-center configuration.
+policy_pop_mult, policy_pc, policy_pm: configuration selected by the original prespecified conservative risk-guided prospective implementation.
+oracle_pop_mult, oracle_pc, oracle_pm: empirical reference selected on the independent hidden surface.
+surface_sd_pp: realized hidden-surface sharpness diagnostic.
+V025: share of the 125 hidden-surface configurations within 0.25 pp of the empirical reference.
+fresh_policy_mean: 10-replication final-validation mean Cmax of the policy configuration.
+fresh_oracle_mean: 10-replication final-validation mean Cmax of the empirical reference.
+fresh_center_mean: 10-replication final-validation mean Cmax of direct center reuse.
+policy_signed_excess_pp: 100*(fresh_policy_mean-fresh_oracle_mean)/NEH.
+policy_safe: TRUE if policy_signed_excess_pp <= 0.25.
+center_signed_excess_pp: corresponding direct-center signed excess.
+center_safe: TRUE if center_signed_excess_pp <= 0.25.
+policy_tuning_runs: tuning runs used by the original conservative prospective implementation; the final recommended staged policy has separate target-level budgets in Section 05.
+policy_clipped_regret_pp: max(0, policy_signed_excess_pp).
+center_clipped_regret_pp: max(0, center_signed_excess_pp).

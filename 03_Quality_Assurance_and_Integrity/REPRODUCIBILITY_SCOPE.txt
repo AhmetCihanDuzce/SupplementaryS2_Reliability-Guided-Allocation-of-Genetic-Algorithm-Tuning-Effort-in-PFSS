@@ -1,0 +1,22 @@
+REPRODUCIBILITY SCOPE
+
+Historical Ta100x20 layer:
+- Ten G=17,000 response surfaces contain 12,500 GA runs.
+- All 120 prespecified calibration-triple policy selections are supplied.
+- 790 independent fresh-validation runs and all 840 holdout comparisons are supplied.
+- The standalone verifier recomputes the standard NEH vector, 120/120 policy selections, 840/840 comparison outcomes, and the canonical 595/840 result.
+
+Original prospective layer:
+- The prespecified 24-target design, exact target matrices, and complete target-level summary are supplied.
+- Matrix replay yields 24/24 SHA-256 and 24/24 standard-NEH matches.
+- The final evaluation workbook and target summary refer to the original conservative prospective implementation (0 / <=116 / 1250 action budgets), which used 6,185 tuning runs and underpins the confirmatory 21/24 analysis.
+- The package does not retrospectively relabel those results as outcomes of the final staged operational policy.
+
+Recommended operational policy layer:
+- The final staged GREEN/AMBER/RED specification (<=50 / <=137 / 490 maximum runs), target-level realized budget table, and risk-level budget summary are supplied.
+- The realized 24-target guided budget is 3,767 runs; the reliability-blind matched-budget comparator uses 3,768 runs.
+- The matched-budget validation includes 960 fresh validation observations and can be independently reconstructed with the supplied verifier in S2 or the cross-package verifier in Supplementary S1.
+
+Additional analyses:
+- Machine-readable robustness/sensitivity evidence is supplied in `06_Robustness_and_Sensitivity_Analyses/`.
+- The normalized computational-work proxy files in Section 06 pertain to the ORIGINAL conservative prospective implementation unless explicitly stated otherwise; the final staged-policy savings reported in the manuscript are transparent configuration-run-count comparisons.

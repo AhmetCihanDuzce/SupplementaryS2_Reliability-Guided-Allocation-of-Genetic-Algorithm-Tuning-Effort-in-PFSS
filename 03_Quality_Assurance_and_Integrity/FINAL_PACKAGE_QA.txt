@@ -1,0 +1,43 @@
+Supplementary S2 — Final Package QA
+
+Status: PASS
+
+Scientific reconstruction checks
+- Historical anchors: 6583/7560 = 87.08%
+- Canonical Ta100x20: 595/840 = 70.833333%
+- Ta100x20 main rows independently verified: 12,500
+- Ta100x20 split policies reproduced: 120/120
+- Ta100x20 fresh rows independently verified: 790
+- Ta100x20 holdout comparisons reproduced: 840/840
+- Prospective matrix replay: SHA-256 24/24; standard NEH 24/24
+
+Original conservative prospective validation
+- Risk labels: GREEN 8; AMBER 12; RED 4
+- Original policy within 0.25 pp: 21/24
+- Direct center within 0.25 pp: 21/24
+- Original conservative tuning budget: 6,185 runs
+- Universal 125x10 retuning reference: 30,000 runs
+- Original confirmatory results are retained unchanged and are not reinterpreted as outcomes of the final staged policy.
+
+Recommended staged operational policy
+- GREEN maximum budget: <=50 runs per target
+- AMBER maximum budget: <=137 runs per target
+- RED budget: 490 runs per target
+- Realized budget by risk: GREEN 370; AMBER 1,437; RED 1,960
+- Realized total guided budget: 3,767 runs
+- Run-count reduction vs universal 30,000-run retuning: 87.44%
+- Run-count reduction vs original 6,185-run conservative schedule: 39.09%
+- Reliability-blind matched-budget comparator: 3,768 runs
+- Fresh validation rows: 960 = 24 targets x 2 methods x 20 common-random-number replicates
+- Raw mean-Cmax result: guided 16/24; blind 5/24; exact ties 3/24
+- +/-0.05% interpretation band: guided 9/24; blind 1/24; practical ties 14/24
+- Mean guided advantage: 0.050265517350%
+- Median guided advantage: 0.037247210556%
+- Evidence status: descriptive matched-budget validation, not a prespecified confirmatory endpoint
+
+Submission terminology and provenance
+- Submission-facing prospective files use TargetXX / target_index.
+- The original prospective implementation and final recommended operational policy are documented in separate sections.
+- Historical raw workbooks remain archival experimental evidence; their original worksheet vocabulary is not used as prospective target nomenclature.
+
+The package inventory and SHA-256 manifest are regenerated after all checks.

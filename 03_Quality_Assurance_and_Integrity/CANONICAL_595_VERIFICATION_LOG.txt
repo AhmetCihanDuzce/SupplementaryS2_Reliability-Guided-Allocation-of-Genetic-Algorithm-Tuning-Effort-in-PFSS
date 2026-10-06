@@ -1,0 +1,10 @@
+PASS — manuscript-critical summary verification
+Historical anchors: 6583/7560 = 87.08%
+PASS — Ta100x20 canonical 595/840 raw reconstruction
+Main rows verified: 12500
+Main independent Cmax checks: 12500
+Split policies reproduced: 120/120
+Fresh rows verified: 790/790
+Fresh independent Cmax checks: 790
+Holdout comparisons reproduced: 840/840
+Near-optimal result: 595/840 = 70.833333%

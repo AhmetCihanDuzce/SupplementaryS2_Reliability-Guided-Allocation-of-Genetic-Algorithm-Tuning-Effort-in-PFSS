@@ -1,0 +1,4 @@
+method,mean_abs_difference_from_prespecified_pp,max_abs_difference_from_prespecified_pp,action_agreement_with_prespecified_n,action_agreement_with_prespecified_rate,spearman_rho_vs_center_clipped_loss,spearman_p_two_sided
+Prespecified log-coordinate bilinear,0.0,0.0,24,1.0,-0.5208491520704139,0.009064237580391411
+Raw-coordinate bilinear,0.8521570885168652,1.9712392123682698,23,0.9583333333333334,-0.5115565713019855,0.010615896478092428
+Local log-space inverse-distance weighting (p=2),0.8392581772826541,2.8221804788997495,23,0.9583333333333334,-0.5264247005314711,0.008227110852465707

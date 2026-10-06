@@ -1,0 +1,4 @@
+tolerance_pp,policy_safe_n,center_safe_n,N,policy_safe_rate,center_safe_rate,recoveries_center_fail_policy_safe,reverse_discordance_center_safe_policy_fail,both_safe,both_above_tolerance
+0.1,13,7,16,0.8125,0.4375,6,0,7,3
+0.25,13,13,16,0.8125,0.8125,1,1,12,2
+0.5,15,15,16,0.9375,0.9375,1,1,14,0
