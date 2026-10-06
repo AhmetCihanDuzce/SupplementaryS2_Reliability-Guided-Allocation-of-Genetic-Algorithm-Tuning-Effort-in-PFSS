@@ -1,0 +1,16 @@
+metric,value
+status,PASS
+rows,37500
+unique_run_keys,37500
+duplicate_run_keys,0
+unique_parameter_configurations_by_instance,3753
+configurations_not_10_reps,6
+min_reps_per_configuration,2
+max_reps_per_configuration,10
+Ta50x5_rows,12500
+Ta50x5_configurations,1250
+Ta50x10_rows,12500
+Ta50x10_configurations,1250
+Ta50x20_rows,12500
+Ta50x20_configurations,1253
+main_csv_sha256,d9e5fbefd70bf0cfd3bb0d8acc46bdf8d19a3e2d409b4d16f2ac04881044b9de

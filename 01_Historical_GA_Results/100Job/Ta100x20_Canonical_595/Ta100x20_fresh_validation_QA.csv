@@ -1,0 +1,15 @@
+check,observed,expected,pass
+raw_rows,790,790,True
+unique_run_keys,790,790,True
+missing_runs,0,0,True
+unexpected_runs,0,0,True
+duplicate_run_keys,0,0,True
+seed_mismatch,0,0,True
+G_mismatch,0,0,True
+Ps_mismatch,0,0,True
+invalid_permutation,0,0,True
+independent_cmax_mismatch,0,0,True
+ub_mismatch,0,0,True
+lb_mismatch,0,0,True
+target_config_configurations,79,79,True
+configurations_with_R_not_10,0,0,True

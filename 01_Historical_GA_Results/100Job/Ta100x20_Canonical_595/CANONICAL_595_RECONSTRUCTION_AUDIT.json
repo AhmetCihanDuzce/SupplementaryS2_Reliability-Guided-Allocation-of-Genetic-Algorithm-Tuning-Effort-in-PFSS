@@ -1,0 +1,48 @@
+{
+  "status": "CANONICAL_595_RECONSTRUCTED_AND_VERIFIED",
+  "canonical_result": {
+    "near_optimal": 595,
+    "comparisons": 840,
+    "rate_pct": 70.83333333333334,
+    "threshold_pp": 0.25
+  },
+  "main": {
+    "rows": 12500,
+    "G": 17000,
+    "instances": 10,
+    "configurations_per_instance": 125,
+    "reps_per_configuration": 10,
+    "seed_base": 2230000201
+  },
+  "fresh": {
+    "rows": 790,
+    "unique_conditions": 79,
+    "reps_per_condition": 10,
+    "seed_base": 2330000201
+  },
+  "policies": {
+    "splits": 120,
+    "holdouts_per_split": 7,
+    "reproduced": 120
+  },
+  "neh_vector": [
+    6541,
+    6523,
+    6639,
+    6557,
+    6695,
+    6664,
+    6632,
+    6739,
+    6677,
+    6677
+  ],
+  "alternate_597_note": "Internal audit artifact only; same 12,500-run main backbone, different NEH normalization, three split-policy changes, aggregate 597/840.",
+  "selected_hashes": {
+    "Ta100x20_120split_policies_prespecified.csv": "2a2c81ab6217024d9fb2b527a689f72cba2db948fe1f97d863a48fa4a547fc3e",
+    "Ta100x20_fresh_validation_complete_790.csv": "c7ef846a8cf2c1f33a3a6ce934005429e7be1d5ddad5f91a7c6962a13a2bca4e",
+    "Ta100x20_3to7_holdout_observations_840.csv": "13e14ae1716f064a5b77b66752787117b01e274b10685a01f279876915594eb0",
+    "Ta100x20_transfer_overall_summary.csv": "36b774e718014d65bae8bb1e1aa537f83ff26d26be024484b0b0b9f986d8c8c8",
+    "Ta100x20_NEH_reference.csv": "af823befb78e3fac89d0565a518d17d70196c6873638307f3541cf08679276d7"
+  }
+}
